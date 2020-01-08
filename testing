@@ -1,5 +1,3 @@
-hi
-
 Description: 'AWS CloudFormation Sample Template EC2InstanceWithSecurityGroupSample:'
 Parameters:
   KeyName:
