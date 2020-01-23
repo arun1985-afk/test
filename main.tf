@@ -3,7 +3,7 @@ provider "aws" {
 }
 resource "aws_instance" "web" {
   ami           = "ami-04590e7389a6e577c"
-  instance_type = "m3.large"
+  instance_type = "t2.small"
  
   tags = {
     Name = "tfinstance"
