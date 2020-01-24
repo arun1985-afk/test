@@ -2,11 +2,6 @@ provider "aws" {
   region = "us-west-2"
 }
 
-data "aws_vpc" "default" {
-  default = true
-}
-
-
 resource "aws_instance" "web" {
   ami           = "ami-03d87256af0650d55"
   instance_type = "t2.small"
