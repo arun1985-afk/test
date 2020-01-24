@@ -6,9 +6,7 @@ data "aws_vpc" "default" {
   default = true
 }
 
-data "aws_subnet_ids" "all" {
-  vpc_id = "vpc-0f889ec8acff2d9d0"
-}
+
 resource "aws_instance" "web" {
   ami           = "ami-03d87256af0650d55"
   instance_type = "t2.small"
