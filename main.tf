@@ -10,7 +10,7 @@ resource "aws_instance" "web" {
   subnet_id     = "subnet-00158c49bb7aa8673"
  
   tags = {
-    Name = "tfinstance"
+    Name = "tfinstancenew"
   }
 }
 
